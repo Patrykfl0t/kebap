@@ -1,5 +1,44 @@
-body 
-{
-	background-image: url('tło.jpg');
-	color: black;
+body {
+    background-image: url('tło.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.text-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid yellow;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
 }
