@@ -1,1 +1,7 @@
-
+body {
+    background-image: url('kebab na tło.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
