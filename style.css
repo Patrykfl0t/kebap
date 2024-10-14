@@ -36,14 +36,14 @@ ul {
 
 ul li {
     font-size: 1.2em;
-    color: #2cb13d; /* Zmieniony kolor na ciemny niebieski */
+    color: #157bbe; 
     margin-bottom: 10px;
 }
 
 /* Styl dla przepisu (lista numerowana) */
 ol li {
     font-size: 1.2em;
-    color: #2cb13d; /* Ten sam ciemny niebieski dla spójności */
+    color: #157bbe; 
     margin-bottom: 10px;
 }
 
