@@ -1,87 +1,61 @@
-/* Styl dla całego dokumentu */
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url('kkebeb1.png'); /* Wstaw ścieżkę do obrazu tła */
+    background-image: url('kkebeb1.png'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif; /*czcionka */
     color: black;
 }
 
 /* Styl głównego nagłówka */
 h1 {
-    font-size: 2.5em;
-    color: white;
+    font-family: 'Georgia', serif; /* Elegancka czcionka dla h1 */
+    font-size: 3em;
+    color: #d23636; 
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 10px;
     margin-bottom: 20px;
+    letter-spacing: 2px; /* Dodane odstępy między literami */
+    text-transform: uppercase; /* Zmienia tekst na wielkie litery */
 }
 
 /* Styl dla tekstu akapitów w h2 */
 h2 p {
     font-size: 1.2em;
-    line-height: 1.6;
-    color: #f0f0f0;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 5px;
+    line-height: 1.8;
+    color: black; 
 }
 
 /* Styl dla listy składników */
 ul {
-    list-style-type: square;
+    list-style-type: disc; /* Zmieniony styl wypunktowania */
     padding-left: 40px;
 }
 
 ul li {
     font-size: 1.2em;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    color: #2c3e50; /* Zmieniony kolor na ciemny niebieski */
     margin-bottom: 10px;
-    border-radius: 5px;
 }
 
 /* Styl dla przepisu (lista numerowana) */
 ol li {
     font-size: 1.2em;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    color: #2c3e50; /* Ten sam ciemny niebieski dla spójności */
     margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-/* Stylowanie obrazków */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Styl dla obrazka z prawej strony */
-img[style*="float: right"] {
-    max-width: 30%;
-    margin: 20px;
-    float: right;
-    border-radius: 10px;
 }
 
 /* Styl dla linku do lokali */
 a {
     font-size: 1.5em;
-    color: #ffd700;
+    color: #d23636; /* Czerwony kolor linków, aby pasował do nagłówków */
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff4500;
+    color: #3498db; /* Kolor zmienia się na jasnoniebieski po najechaniu */
 }
 
 /* Styl dla sekcji z tekstem o lokalach */
@@ -94,9 +68,6 @@ h2 a {
 
 h2 {
     font-size: 1.2em;
-    line-height: 1.6;
-    color: #f0f0f0;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 5px;
+    line-height: 1.8;
+    color: #333;
 }
