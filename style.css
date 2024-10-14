@@ -43,14 +43,14 @@ ul li {
 /* Styl dla przepisu (lista numerowana) */
 ol li {
     font-size: 1.2em;
-    color: #2c3e50; /* Ten sam ciemny niebieski dla spójności */
+    color: #2cb13d; /* Ten sam ciemny niebieski dla spójności */
     margin-bottom: 10px;
 }
 
 /* Styl dla linku do lokali */
 a {
     font-size: 1.5em;
-    color: #aa0866; /* Czerwony kolor linków, aby pasował do nagłówków */
+    color: #f30aa5; /* Czerwony kolor linków, aby pasował do nagłówków */
     text-decoration: none;
 }
 
@@ -69,5 +69,5 @@ h2 a {
 h2 {
     font-size: 1.2em;
     line-height: 1.8;
-    color: #333;
+    color: black;
 }
