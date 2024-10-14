@@ -1,8 +1,102 @@
+/* Styl dla całego dokumentu */
 body {
-    background-image: url('kkebeb1.png');
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-image: url('kkebeb1.png'); /* Wstaw ścieżkę do obrazu tła */
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     font-family: Arial, sans-serif;
     color: black;
+}
+
+/* Styl głównego nagłówka */
+h1 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styl dla tekstu akapitów w h2 */
+h2 p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styl dla listy składników */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+ul li {
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Styl dla przepisu (lista numerowana) */
+ol li {
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Stylowanie obrazków */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styl dla obrazka z prawej strony */
+img[style*="float: right"] {
+    max-width: 30%;
+    margin: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+/* Styl dla linku do lokali */
+a {
+    font-size: 1.5em;
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/* Styl dla sekcji z tekstem o lokalach */
+h2 a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
 }
